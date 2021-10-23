@@ -168,14 +168,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="z4J-6b-WC1" customClass="CommentCell" customModule="ParseInstagram" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="392.5" width="414" height="37.5"/>
+                                        <rect key="frame" x="0.0" y="392.5" width="414" height="37"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="z4J-6b-WC1" id="Mxq-R2-MXj">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="37.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="37"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leonel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3kC-RO-soG">
-                                                    <rect key="frame" x="16" y="8" width="50.5" height="21.5"/>
+                                                    <rect key="frame" x="16" y="8" width="50.5" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50.5" id="8Cp-Qv-IHD"/>
                                                     </constraints>
@@ -184,7 +184,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rns-XS-No1">
-                                                    <rect key="frame" x="74.5" y="8" width="331.5" height="21.5"/>
+                                                    <rect key="frame" x="74.5" y="8" width="331.5" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -209,14 +209,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="aLn-8j-F8o">
-                                        <rect key="frame" x="0.0" y="430" width="414" height="37"/>
+                                        <rect key="frame" x="0.0" y="429.5" width="414" height="37.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aLn-8j-F8o" id="feB-1h-nSK">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="37"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="37.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibi-pg-eJf">
-                                                    <rect key="frame" x="16" y="8" width="390" height="21"/>
+                                                    <rect key="frame" x="16" y="8" width="390" height="21.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.57375505235460067" green="0.57375505235460067" blue="0.57375505235460067" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -270,7 +270,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="ApN-vU-zDY" appends="YES" id="1s4-k6-AjD"/>
+                                    <outletCollection property="gestureRecognizers" destination="mw9-oa-mu3" appends="YES" id="S15-hR-GF5"/>
                                 </connections>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZIj-a7-R1g">
@@ -300,9 +300,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U7b-nf-re3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="ApN-vU-zDY">
+                <tapGestureRecognizer id="mw9-oa-mu3">
                     <connections>
-                        <action selector="onCameraButton:" destination="jJD-jc-5sH" id="WxP-n9-BQE"/>
+                        <action selector="onCameraButton:" destination="jJD-jc-5sH" id="CH1-bj-e3J"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
